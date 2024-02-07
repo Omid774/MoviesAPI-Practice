@@ -49,6 +49,7 @@
 		F7F7FF6A2B73722100167A40 /* MoviesAPI-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MoviesAPI-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F7FF6E2B73722100167A40 /* MoviesAPI_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAPI_PracticeUITests.swift; sourceTree = "<group>"; };
 		F7F7FF702B73722100167A40 /* MoviesAPI_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesAPI_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7F7FF812B7373F000167A40 /* Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Practice.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,10 @@
 		F7F7FF4C2B73722000167A40 /* MoviesAPI-Practice */ = {
 			isa = PBXGroup;
 			children = (
+				F7F7FF802B7373C600167A40 /* Playground */,
+				F7F7FF7F2B7373B500167A40 /* Model */,
+				F7F7FF7E2B7373A900167A40 /* View */,
+				F7F7FF7D2B73739300167A40 /* Controller */,
 				F7F7FF4D2B73722000167A40 /* AppDelegate.swift */,
 				F7F7FF4F2B73722000167A40 /* SceneDelegate.swift */,
 				F7F7FF512B73722000167A40 /* ViewController.swift */,
@@ -125,6 +130,35 @@
 				F7F7FF702B73722100167A40 /* MoviesAPI_PracticeUITestsLaunchTests.swift */,
 			);
 			path = "MoviesAPI-PracticeUITests";
+			sourceTree = "<group>";
+		};
+		F7F7FF7D2B73739300167A40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7F7FF7E2B7373A900167A40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7F7FF7F2B7373B500167A40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7F7FF802B7373C600167A40 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F7F7FF812B7373F000167A40 /* Practice.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
