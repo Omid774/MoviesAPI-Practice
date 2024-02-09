@@ -9,7 +9,7 @@ import UIKit
 
 struct MovieManager {
     
-    func fetchMovies() {
+    func fetchMovies(completion: @escaping (MovieModel) -> Void) {
         
         guard let url = URL(string: "https://reactnative.dev/movies.json") else { return }
         
@@ -25,6 +25,7 @@ struct MovieManager {
             
             do {
                 let decodedData = try decoder.decode(MovieModel.self, from: jsonData)
+                completion(decodedData)
             } catch {
                 print("Error decoding data.")
             }
